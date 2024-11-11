@@ -6,8 +6,8 @@ console.log(justFood(10))
 console.log(yourMama(10))
 console.log(flavourHaven(10))
 
-const createEvent = (action, number, cateringType) => {
-  return `Událost ${action} s ${cateringType(number)}`
+const createEvent = (eventName, number, cateringType) => {
+  return `Událost ${eventName} s ${cateringType(number)}`
 }
 
 console.log(createEvent("Inaugurace prezidenta", 1000, flavourHaven))
